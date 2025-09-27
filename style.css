@@ -1,0 +1,466 @@
+/* SharpGrotesk Black */
+@font-face {
+    font-family: 'SharpGrotesk-Black05';
+    src: url('./assets/font/SharpGrotesk-Black05.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Black10';
+    src: url('./assets/font/SharpGrotesk-Black10.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Black15';
+    src: url('./assets/font/SharpGrotesk-Black15.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Black20';
+    src: url('./assets/font/SharpGrotesk-Black20.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Black25';
+    src: url('./assets/font/SharpGrotesk-Black25.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BlackItalic05';
+    src: url('./assets/font/SharpGrotesk-BlackItalic05.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BlackItalic10';
+    src: url('./assets/font/SharpGrotesk-BlackItalic10.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BlackItalic15';
+    src: url('./assets/font/SharpGrotesk-BlackItalic15.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BlackItalic20';
+    src: url('./assets/font/SharpGrotesk-BlackItalic20.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* SharpGrotesk Bold */
+@font-face {
+    font-family: 'SharpGrotesk-Bold05';
+    src: url('./assets/font/SharpGrotesk-Bold05.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Bold10';
+    src: url('./assets/font/SharpGrotesk-Bold10.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Bold15';
+    src: url('./assets/font/SharpGrotesk-Bold15.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Bold20';
+    src: url('./assets/font/SharpGrotesk-Bold20.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Bold25';
+    src: url('./assets/font/SharpGrotesk-Bold25.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BoldItalic05';
+    src: url('./assets/font/SharpGrotesk-BoldItalic05.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BoldItalic10';
+    src: url('./assets/font/SharpGrotesk-BoldItalic10.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BoldItalic15';
+    src: url('./assets/font/SharpGrotesk-BoldItalic15.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BoldItalic20';
+    src: url('./assets/font/SharpGrotesk-BoldItalic20.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* SharpGrotesk Book */
+@font-face {
+    font-family: 'SharpGrotesk-Book05';
+    src: url('./assets/font/SharpGrotesk-Book05.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Book10';
+    src: url('./assets/font/SharpGrotesk-Book10.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Book15';
+    src: url('./assets/font/SharpGrotesk-Book15.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Book20';
+    src: url('./assets/font/SharpGrotesk-Book20.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Book25';
+    src: url('./assets/font/SharpGrotesk-Book25.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BookItalic05';
+    src: url('./assets/font/SharpGrotesk-BookItalic05.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BookItalic10';
+    src: url('./assets/font/SharpGrotesk-BookItalic10.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BookItalic15';
+    src: url('./assets/font/SharpGrotesk-BookItalic15.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-BookItalic20';
+    src: url('./assets/font/SharpGrotesk-BookItalic20.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* SharpGrotesk Light */
+@font-face {
+    font-family: 'SharpGrotesk-Light05';
+    src: url('./assets/font/SharpGrotesk-Light05.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Light10';
+    src: url('./assets/font/SharpGrotesk-Light10.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Light15';
+    src: url('./assets/font/SharpGrotesk-Light15.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Light20';
+    src: url('./assets/font/SharpGrotesk-Light20.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Light25';
+    src: url('./assets/font/SharpGrotesk-Light25.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-LightItalic05';
+    src: url('./assets/font/SharpGrotesk-LightItalic05.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-LightItalic10';
+    src: url('./assets/font/SharpGrotesk-LightItalic10.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-LightItalic15';
+    src: url('./assets/font/SharpGrotesk-LightItalic15.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-LightItalic20';
+    src: url('./assets/font/SharpGrotesk-LightItalic20.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* SharpGrotesk Medium */
+@font-face {
+    font-family: 'SharpGrotesk-Medium05';
+    src: url('./assets/font/SharpGrotesk-Medium05.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Medium10';
+    src: url('./assets/font/SharpGrotesk-Medium10.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Medium15';
+    src: url('./assets/font/SharpGrotesk-Medium15.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'SharpGrotesk-Medium25';
+    src: url('./assets/font/SharpGrotesk-Medium25.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-MediumItalic05';
+    src: url('./assets/font/SharpGrotesk-MediumItalic05.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-MediumItalic10';
+    src: url('./assets/font/SharpGrotesk-MediumItalic10.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-MediumItalic15';
+    src: url('./assets/font/SharpGrotesk-MediumItalic15.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-MediumItalic20';
+    src: url('./assets/font/SharpGrotesk-MediumItalic20.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* SharpGrotesk SemiBold */
+@font-face {
+    font-family: 'SharpGrotesk-SemiBold05';
+    src: url('./assets/font/SharpGrotesk-SemiBold05.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-SemiBold10';
+    src: url('./assets/font/SharpGrotesk-SemiBold10.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-SemiBold15';
+    src: url('./assets/font/SharpGrotesk-SemiBold15.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-SemiBold20';
+    src: url('./assets/font/SharpGrotesk-SemiBold20.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-SemiBold25';
+    src: url('./assets/font/SharpGrotesk-SemiBold25.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-SemiBoldItalic05';
+    src: url('./assets/font/SharpGrotesk-SemiBoldItalic05.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-SemiBoldItalic10';
+    src: url('./assets/font/SharpGrotesk-SemiBoldItalic10.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-SemiBoldItalic15';
+    src: url('./assets/font/SharpGrotesk-SemiBoldItalic15.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-SemiBoldItalic20';
+    src: url('./assets/font/SharpGrotesk-SemiBoldItalic20.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* SharpGrotesk Thin */
+@font-face {
+    font-family: 'SharpGrotesk-Thin05';
+    src: url('./assets/font/SharpGrotesk-Thin05.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Thin10';
+    src: url('./assets/font/SharpGrotesk-Thin10.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Thin15';
+    src: url('./assets/font/SharpGrotesk-Thin15.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Thin20';
+    src: url('./assets/font/SharpGrotesk-Thin20.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-Thin25';
+    src: url('./assets/font/SharpGrotesk-Thin25.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-ThinItalic05';
+    src: url('./assets/font/SharpGrotesk-ThinItalic05.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-ThinItalic10';
+    src: url('./assets/font/SharpGrotesk-ThinItalic10.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-ThinItalic15';
+    src: url('./assets/font/SharpGrotesk-ThinItalic15.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SharpGrotesk-ThinItalic20';
+    src: url('./assets/font/SharpGrotesk-ThinItalic20.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Grotesk-Regular';
+    src: url('./assets/font/Alte Haas Grotesk Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 17px;
+    color: #1E1919;
+}
+
+h1, h2, h3 {
+    font-family: 'SharpGrotesk-Book20', sans-serif;
+}
+
+h4, h5, h6 {
+    font-family: 'SharpGrotesk-Medium20', sans-serif;
+}
+
+a, span, p {
+    font-family: 'Grotesk-Regular', sans-serif;
+}
