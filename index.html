@@ -23,8 +23,8 @@
                 </span>
             </a>
         </nav>
-        <nav>
-            <ul class="flex gap-6 items-center h-full">
+        <nav class="flex items-center gap-6">
+            <ul class="flex gap-6 items-center h-full max-sm:hidden">
                 <li>
                     <a href="#">
                         <span>
@@ -37,13 +37,18 @@
                 <li><a href="#" class="hover:text-blue-600 transition-colors ease-in-out">Entrar</a></li>
                 <li><a href="#" class="bg-blue-600 hover:bg-blue-700 transition-all ease-in-out text-white px-4 py-2.5 font-medium rounded-xl">Começar agora</a></li>
             </ul>
+            <a href="#" class="sm:flex md:hidden">
+                <span>
+                    <svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon" width="32" height="32" role="presentation" focusable="false"><path d="M18.5 16.5h-13V18h13v-1.5Zm0-5.5h-13v1.5h13V11Zm0-5.5h-13V7h13V5.5Z" fill="currentColor" vector-effect="non-scaling-stroke"></path></svg>
+                </span>
+            </a>
         </nav>
     </header>
-    <section class="grid grid-cols-2 2xl:grid-cols-[1fr_2fr] pt-[70px]">
+    <section class="grid md:grid-cols-2 sm:grid-cols-1 2xl:grid-cols-[1fr_2fr] pt-[70px]">
         <div class="bg-stone-800 p-12">
-            <h1 class="text-white font-medium text-5xl leading-12 mb-4">Tudo o que sua empresa precisa para trabalhar com eficiência, em um só lugar</h1>
+            <h1 class="text-white font-medium text-5xl leading-12 mb-4 max-sm:text-4xl max-sm:leading-10">Tudo o que sua empresa precisa para trabalhar com eficiência, em um só lugar</h1>
             <p class="text-white mb-8">Colabore continuamente e entregue o trabalho com mais rapidez usando o Dropbox. Armazene seu conteúdo com segurança, edite PDFs, compartilhe vídeos, assine documentos e revise as ações da equipe, tudo isso sem sair do Dropbox.</p>
-            <a href="#" class="bg-blue-500 p-6 rounded-2xl flex gap-9 mb-6 hover:bg-blue-400 ease-in-out hover:gap-10 transition-all w-[320px]">
+            <a href="#" class="bg-blue-500 p-6 rounded-2xl flex gap-9 mb-6 hover:bg-blue-400 ease-in-out hover:gap-10 transition-all w-[320px] max-sm:w-full max-sm:justify-between">
                 <span class="font-bold">Experimente gratuitamente</span>
                 <span>
                     <svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg>
@@ -84,7 +89,7 @@
                 <input type="radio" name="plano" id="anual" class="hidden">
             </div>
         </div>
-        <div class="grid grid-cols-3 gap-6">
+        <div class="grid grid-cols-3 gap-6 max-sm:grid-cols-1">
             <div class="bg-[#FAF9F7] rounded-xl px-12 pt-5 pb-12 mt-8">
                 <div class="flex flex-col gap-2.5 mb-12">
                     <span class="text-neutral-500">Para profissionais</span>
@@ -358,23 +363,23 @@
     </section>
     <section class="bg-[#F7F5F2] py-18 px-6">
         <h3 class="m-auto max-w-3xl text-center font-medium text-4xl mb-20">O Dropbox apoia você e sua empresa em todas as etapas</h3>
-        <div class="grid grid-cols-[repeat(24,1fr)] gap-8 max-w-[1240px] m-auto *:flex *:flex-col *:gap-4 *:col-span-6">
-            <div>
+        <div class="grid grid-cols-[repeat(24,1fr)] gap-8 max-w-[1240px] m-auto *:flex *:flex-col *:gap-4 *:col-span-6 max-sm:grid-cols-1 max-sm:*:text-center">
+            <div class="max-sm:items-center">
                 <img src="./assets/imgs/img1.svg" class="w-fit" alt="Cadeado">
                 <h4 class="font-bold text-[22px] leading-6">Armazene e proteja seus arquivos</h4>
                 <p>Comece com 3 TB de armazenamento e backup, com recursos de segurança como recuperação de arquivos, proteção por senha, marca d'água e histórico do visualizador.</p>
             </div>
-            <div>
+            <div class="max-sm:items-center">
                 <img src="./assets/imgs/img2.svg" class="w-fit" alt="Lupa">
                 <h4 class="font-bold text-[22px] leading-6">Compartilhe seu conteúdo</h4>
                 <p>Esqueça os anexos de e-mails. Com o Dropbox, você pode enviar arquivos grandes com confiança e ficar por dentro das atividades dos arquivos sem precisar alternar de ferramenta ou dispositivo.</p>
             </div>
-            <div>
+            <div class="max-sm:items-center">
                 <img src="./assets/imgs/img3.svg" class="w-fit" alt="Balões de conversa">
                 <h4 class="font-bold text-[22px] leading-6">Colabore em seu trabalho</h4>
                 <p>Acelere a colaboração em vídeos e use o Replay para agilizar opiniões e aprovações em projetos criativos.</p>
             </div>
-            <div>
+            <div class="max-sm:items-center">
                 <img src="./assets/imgs/img4.svg" class="w-fit" alt="Folha e Caneta">
                 <h4 class="font-bold text-[22px] leading-6">Gerencie sua empresa</h4>
                 <p>Prepare e edite PDFs, envie e assine eletronicamente seus contratos mais importantes com facilidade, tudo em um só lugar</p>
@@ -393,14 +398,14 @@
                 </a>
             </div>
         </div>
-        <div class="flex gap-18 max-w-[1080px] m-auto">
+        <div class="flex gap-18 max-w-[1080px] m-auto max-sm:flex-col">
             <div class="bg-[#B4DC19] flex justify-center items-center py-36 px-24">
                 <picture class="w-36">
                     <img src="./assets/imgs/designit-logo.svg" class="w-full object-contain" alt="Designit">
                 </picture>
             </div>
             <div>
-                <p class="text-white w-2xl">“Nossa equipe trabalha constantemente em diferentes países, fusos horários e escritórios. Várias soluções acomodam essa dinâmica, mas nenhuma delas é tão eficiente quanto o Dropbox e o Dropbox Paper.”</p>
+                <p class="text-white w-2xl max-sm:w-full">“Nossa equipe trabalha constantemente em diferentes países, fusos horários e escritórios. Várias soluções acomodam essa dinâmica, mas nenhuma delas é tão eficiente quanto o Dropbox e o Dropbox Paper.”</p>
                 <a href="#" class="flex gap-1 group hover:gap-2 transition-all ease-in-out w-fit mt-8">
                     <span class="text-white font-bold relative before:content-[''] before:block before:absolute before:bottom-0 before:w-full before:h-[1px] before:bg-white before:opacity-50 group-hover:before:opacity-100">Veja os estudos de caso</span>
                     <span class="text-white">
@@ -411,14 +416,14 @@
                 <span class="text-neutral-400 size-3.5">Líder mundial em TI</span>
             </div>
         </div>
-        <div class="grid grid-cols-2 max-w-7xl m-auto gap-8 mt-32">
+        <div class="grid grid-cols-2 max-w-7xl m-auto gap-8 mt-32 max-sm:grid-cols-1">
             <div>
                 <img src="./assets/imgs/teams.jpg" class="w-full" alt="Teams">
                 <div class="flex flex-col p-12 bg-[#2B2929]">
                     <h3 class="text-white font-medium text-2xl mb-10">Para trabalho</h3>
                     <div class="flex flex-col gap-8">
                         <p class="text-white">Trabalhe com eficiência com colegas e clientes, permaneça em sincronia nos projetos e mantenha os dados da empresa seguros — tudo em um só lugar.</p>
-                        <a href="#" class="bg-blue-500 px-6 py-4 rounded-2xl flex gap-4 hover:bg-blue-400 ease-in-out transition-all box-border max-w-[342px] group">
+                        <a href="#" class="bg-blue-500 px-6 py-4 rounded-2xl flex gap-4 hover:bg-blue-400 ease-in-out transition-all box-border max-w-[342px] group max-sm:w-full max-sm:items-center">
                             <span class="font-bold">Baixar o Dropbox para o trabalho</span>
                             <span class="group-hover:translate-x-1 transition-all ease-in-out">
                                 <svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg>
@@ -433,7 +438,7 @@
                     <h3 class="text-white font-medium text-2xl mb-10">Para uso pessoal</h3>
                     <div class="flex flex-col gap-8">
                         <p class="text-white">Mantenha compartilhável, seguro e em um só lugar tudo o que é importante para você e sua família. Faça backup de arquivos na nuvem, compartilhe fotos e vídeos e muito mais.</p>
-                        <a href="#" class="bg-blue-500 px-6 py-4 rounded-2xl flex gap-4 hover:bg-blue-400 ease-in-out transition-all box-border w-[358px] group">
+                        <a href="#" class="bg-blue-500 px-6 py-4 rounded-2xl flex gap-4 hover:bg-blue-400 ease-in-out transition-all box-border w-[358px] group max-sm:w-full max-sm:items-center">
                             <span class="font-bold">Baixar o Dropbox para uso pessoal</span>
                             <span class="group-hover:translate-x-1 transition-all ease-in-out">
                                 <svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg>
@@ -443,9 +448,9 @@
                 </div>
             </div>
         </div>
-        <div class="max-w-7xl m-auto mt-14 flex justify-between px-14">
-            <h1 class="text-white text-5xl max-w-3xl">Organize-se. Mãos à obra. Comece com o Dropbox.</h1>
-            <a href="#" class="bg-blue-500 px-6 py-4 rounded-2xl flex items-center gap-12 hover:bg-blue-400 ease-in-out transition-all box-border w-[330px] group">
+        <div class="max-w-7xl m-auto mt-14 flex justify-between px-14 max-sm:flex-col max-sm:gap-8 max-sm:px-0">
+            <h1 class="text-white text-5xl max-w-3xl max-sm:text-4xl">Organize-se. Mãos à obra. Comece com o Dropbox.</h1>
+            <a href="#" class="bg-blue-500 px-6 py-4 rounded-2xl flex items-center gap-12 hover:bg-blue-400 ease-in-out transition-all box-border w-[330px] group max-sm:w-full">
                 <span class="font-bold leading-5">Inicie sua versão de avaliação gratuita</span>
                 <span class="group-hover:translate-x-1 transition-all ease-in-out">
                     <svg viewBox="0 0 24 24" fill="none" class="dig-UIIcon dig-UIIcon--standard" width="24" height="24" role="presentation" focusable="false"><path d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" vector-effect="non-scaling-stroke"></path></svg>
@@ -453,8 +458,8 @@
             </a>
         </div>
     </section>
-    <section class="bg-black py-20 px-6">
-        <div class="max-w-7xl m-auto px-14 grid gap-8 grid-cols-[repeat(24,1fr)]">
+    <section class="bg-black py-20 px-6 max-sm:px-0">
+        <div class="max-w-7xl m-auto px-14 grid gap-8 grid-cols-[repeat(24,1fr)] max-sm:grid-cols-1 max-sm:px-6">
             <ul class="col-span-4 flex flex-col gap-2 *:text-[15px]">
                 <li>
                     <h4 class="text-white text-2xl mb-2 font-bold">Dropbox</h4>
@@ -633,7 +638,7 @@
                 </li>
             </ul>
         </div>
-        <div class="max-w-7xl m-auto px-14">
+        <div class="max-w-7xl m-auto px-14 max-sm:px-6">
             <div class="flex gap-2 *:text-white *:hover:bg-zinc-800 *:transition-all *:ease-in-out mt-18 w-fit border-b-neutral-500 border-b-1 pb-10 pr-4 mb-10">
                 <a class="cursor-pointer">
                     <span>
